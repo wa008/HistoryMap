@@ -1,0 +1,146 @@
+:root {
+  color-scheme: light;
+  --bg: #f7f7f7;
+  --text: #202124;
+  --muted: #60646c;
+  --card: #ffffff;
+  --line: #d9dce3;
+  --accent: #2f6fed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  margin: 6px 0 16px;
+  color: var(--muted);
+}
+
+.switcher {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  overflow: hidden;
+  background: var(--card);
+}
+
+.switcher-btn {
+  border: 0;
+  background: transparent;
+  padding: 10px 16px;
+  cursor: pointer;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.switcher-btn.active {
+  background: var(--accent);
+  color: #fff;
+}
+
+.timeline-title {
+  margin-top: 24px;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 12px;
+  padding-left: 22px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--line);
+}
+
+.node {
+  position: relative;
+  margin-bottom: 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 12px 12px 14px;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease;
+}
+
+.node:hover {
+  transform: translateX(2px);
+  border-color: #bcc4d3;
+}
+
+.node::before {
+  content: "";
+  position: absolute;
+  left: calc(-1 * var(--left-space, 22px));
+  top: 17px;
+  border-radius: 999px;
+  width: var(--dot-size, 10px);
+  height: var(--dot-size, 10px);
+  background: var(--dot-color, var(--accent));
+}
+
+.node h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.node-keywords {
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.node-meta {
+  margin-top: 6px;
+  font-size: 0.84rem;
+  color: var(--muted);
+}
+
+.detail-panel {
+  margin-top: 20px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.detail-panel h3 {
+  margin-top: 0;
+}
+
+.detail-meta,
+.detail-source {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 18px 12px 28px;
+  }
+}

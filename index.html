@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HistoryMap</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="header">
+        <h1>HistoryMap</h1>
+        <p class="subtitle">Key milestones on a minimalist timeline</p>
+        <div class="switcher" role="tablist" aria-label="Timeline switcher">
+          <button id="btn-world" class="switcher-btn active" data-timeline="world" role="tab" aria-selected="true">
+            World
+          </button>
+          <button id="btn-china" class="switcher-btn" data-timeline="china" role="tab" aria-selected="false">
+            China
+          </button>
+        </div>
+      </header>
+
+      <section aria-live="polite">
+        <h2 id="timeline-title" class="timeline-title">World History Timeline</h2>
+        <div id="timeline" class="timeline" aria-label="History timeline"></div>
+      </section>
+
+      <aside id="detail-panel" class="detail-panel" aria-label="Node details">
+        <h3 id="detail-title">Select a node</h3>
+        <p id="detail-meta" class="detail-meta"></p>
+        <p id="detail-summary"></p>
+        <p id="detail-details"></p>
+        <p id="detail-source" class="detail-source"></p>
+      </aside>
+    </main>
+
+    <script src="./data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
