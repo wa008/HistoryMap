@@ -1,0 +1,222 @@
+window.TIMELINE_DATA = {
+  world: [
+    {
+      id: "world-ancient-egypt",
+      timeline: "world",
+      year: "-3100",
+      title: "Ancient Egyptian Civilization",
+      keywords: ["civilization", "state", "Nile"],
+      type: "culture",
+      heat: 88,
+      summary: "One of the earliest large-scale civilizations with state institutions.",
+      details: "Ancient Egypt shaped writing, administration, architecture, and religious practices in world history.",
+      source: "Britannica: Ancient Egypt"
+    },
+    {
+      id: "world-athens-democracy",
+      timeline: "world",
+      year: "-508",
+      title: "Athenian Democracy",
+      keywords: ["politics", "democracy", "Greece"],
+      type: "event",
+      heat: 84,
+      summary: "Early democratic governance experiments emerged in Athens.",
+      details: "Athenian institutions influenced later democratic ideas despite limitations in participation.",
+      source: "Stanford Encyclopedia of Philosophy: Ancient Political Thought"
+    },
+    {
+      id: "world-printing-press",
+      timeline: "world",
+      year: "1450",
+      title: "Gutenberg Printing Press",
+      keywords: ["technology", "knowledge", "media"],
+      type: "invention",
+      heat: 95,
+      summary: "Movable type printing accelerated knowledge distribution.",
+      details: "The printing press transformed literacy, religion, science, and public discourse in Europe and beyond.",
+      source: "Britannica: Printing Press"
+    },
+    {
+      id: "world-renaissance",
+      timeline: "world",
+      year: "1500",
+      title: "Renaissance Peak",
+      keywords: ["art", "science", "humanism"],
+      type: "culture",
+      heat: 90,
+      summary: "Major cultural and intellectual renewal in Europe.",
+      details: "Renaissance developments in arts, science, and philosophy influenced modern Western thought.",
+      source: "History.com: Renaissance"
+    },
+    {
+      id: "world-industrial-revolution",
+      timeline: "world",
+      year: "1760",
+      title: "Industrial Revolution",
+      keywords: ["industry", "steam", "economy"],
+      type: "event",
+      heat: 98,
+      summary: "Mechanized production transformed economies and societies.",
+      details: "Industrialization reshaped labor, urbanization, transportation, and global power structures.",
+      source: "Britannica: Industrial Revolution"
+    },
+    {
+      id: "world-napoleon",
+      timeline: "world",
+      year: "1804",
+      title: "Napoleon Becomes Emperor",
+      keywords: ["figure", "war", "Europe"],
+      type: "figure",
+      heat: 82,
+      summary: "Napoleon's reign redefined European warfare and legal systems.",
+      details: "Napoleonic campaigns and legal reforms left long-term geopolitical and institutional impacts.",
+      source: "Britannica: Napoleon I"
+    },
+    {
+      id: "world-ww1",
+      timeline: "world",
+      year: "1914",
+      title: "World War I Begins",
+      keywords: ["war", "global conflict", "alliances"],
+      type: "war",
+      heat: 96,
+      summary: "A large-scale global conflict reshaped borders and politics.",
+      details: "World War I accelerated political collapse, social change, and new international order debates.",
+      source: "Britannica: World War I"
+    },
+    {
+      id: "world-ww2",
+      timeline: "world",
+      year: "1939",
+      title: "World War II Begins",
+      keywords: ["war", "global conflict", "fascism"],
+      type: "war",
+      heat: 100,
+      summary: "The deadliest war in history transformed the modern world.",
+      details: "The war led to UN formation, decolonization waves, and long-term geopolitical blocs.",
+      source: "Britannica: World War II"
+    },
+    {
+      id: "world-moon-landing",
+      timeline: "world",
+      year: "1969",
+      title: "Apollo 11 Moon Landing",
+      keywords: ["space", "science", "technology"],
+      type: "event",
+      heat: 86,
+      summary: "Humans landed on the Moon for the first time.",
+      details: "The mission symbolized technological competition and scientific ambition during the Cold War.",
+      source: "NASA: Apollo 11"
+    }
+  ],
+  china: [
+    {
+      id: "china-xia",
+      timeline: "china",
+      year: "-2070",
+      title: "Traditional Start of Xia Dynasty",
+      keywords: ["dynasty", "early state", "tradition"],
+      type: "event",
+      heat: 70,
+      summary: "Often treated as the traditional first dynasty in Chinese historiography.",
+      details: "The Xia's historicity is debated, but it remains central in narratives of early Chinese state formation.",
+      source: "Cambridge History of Ancient China"
+    },
+    {
+      id: "china-confucius",
+      timeline: "china",
+      year: "-551",
+      title: "Confucius",
+      keywords: ["figure", "philosophy", "culture"],
+      type: "figure",
+      heat: 95,
+      summary: "Confucian thought deeply shaped Chinese and East Asian civilizations.",
+      details: "His teachings influenced governance, ethics, education, and social norms for centuries.",
+      source: "Britannica: Confucius"
+    },
+    {
+      id: "china-qin-unification",
+      timeline: "china",
+      year: "-221",
+      title: "Qin Unification",
+      keywords: ["empire", "state", "standardization"],
+      type: "event",
+      heat: 97,
+      summary: "Qin unified major warring states under centralized rule.",
+      details: "Standardized script, measures, and institutions laid foundations for imperial governance.",
+      source: "Britannica: Qin dynasty"
+    },
+    {
+      id: "china-paper",
+      timeline: "china",
+      year: "105",
+      title: "Papermaking Improvement (Cai Lun)",
+      keywords: ["invention", "knowledge", "technology"],
+      type: "invention",
+      heat: 96,
+      summary: "Papermaking advanced knowledge storage and transmission.",
+      details: "Paper technology spread widely and became essential to administration, literature, and education.",
+      source: "UNESCO: Memory and Writing Materials"
+    },
+    {
+      id: "china-li-bai",
+      timeline: "china",
+      year: "701",
+      title: "Li Bai",
+      keywords: ["figure", "poetry", "Tang"],
+      type: "figure",
+      heat: 90,
+      summary: "A major Tang poet known for imaginative style.",
+      details: "Li Bai became an enduring cultural icon in Chinese literary tradition.",
+      source: "Britannica: Li Bai"
+    },
+    {
+      id: "china-du-fu",
+      timeline: "china",
+      year: "712",
+      title: "Du Fu",
+      keywords: ["figure", "poetry", "Tang"],
+      type: "figure",
+      heat: 91,
+      summary: "A major Tang poet often called a poetic historian.",
+      details: "Du Fu's works documented social hardship and political turbulence with strong moral voice.",
+      source: "Britannica: Du Fu"
+    },
+    {
+      id: "china-opium-war",
+      timeline: "china",
+      year: "1840",
+      title: "First Opium War",
+      keywords: ["war", "Qing", "modern transition"],
+      type: "war",
+      heat: 94,
+      summary: "A major conflict that altered Qing China's international position.",
+      details: "The war and resulting treaties marked a turning point in modern Chinese history.",
+      source: "Britannica: Opium Wars"
+    },
+    {
+      id: "china-prc",
+      timeline: "china",
+      year: "1949",
+      title: "Founding of the PRC",
+      keywords: ["state", "modern China", "politics"],
+      type: "event",
+      heat: 99,
+      summary: "The People's Republic of China was established in 1949.",
+      details: "This event redefined state structure, development strategy, and China's role in global politics.",
+      source: "Britannica: People's Republic of China"
+    },
+    {
+      id: "china-reform-opening",
+      timeline: "china",
+      year: "1978",
+      title: "Reform and Opening-up",
+      keywords: ["economy", "modernization", "policy"],
+      type: "event",
+      heat: 97,
+      summary: "Economic reforms initiated major structural transformations.",
+      details: "Market-oriented reforms drove rapid growth and deeper integration into global systems.",
+      source: "World Bank: China Overview"
+    }
+  ]
+};
